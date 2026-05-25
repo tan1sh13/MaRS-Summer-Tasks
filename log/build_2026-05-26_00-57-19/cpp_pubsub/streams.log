@@ -1,0 +1,68 @@
+[0.014s] Invoking command in '/home/tanish/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tanish/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tanish/ros2_ws/install/cpp_pubsub
+[0.099s] -- The C compiler identification is GNU 13.3.0
+[0.591s] -- The CXX compiler identification is GNU 13.3.0
+[0.847s] -- Detecting C compiler ABI info
+[1.961s] -- Detecting C compiler ABI info - done
+[1.973s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.973s] -- Detecting C compile features
+[1.973s] -- Detecting C compile features - done
+[1.987s] -- Detecting CXX compiler ABI info
+[2.335s] -- Detecting CXX compiler ABI info - done
+[2.345s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.346s] -- Detecting CXX compile features
+[2.346s] -- Detecting CXX compile features - done
+[2.348s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.503s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.621s] -- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)
+[2.658s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.670s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.684s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.699s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.788s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.790s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.918s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.941s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.968s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.055s] -- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.095s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.205s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.205s] -- Configured cppcheck include dirs: 
+[3.205s] -- Configured cppcheck exclude dirs and/or files: 
+[3.206s] -- Added test 'lint_cmake' to check CMake code style
+[3.207s] -- Added test 'uncrustify' to check C / C++ code style
+[3.207s] -- Configured uncrustify additional arguments: 
+[3.207s] -- Added test 'xmllint' to check XML markup files
+[3.209s] -- Configuring done (3.2s)
+[3.220s] -- Generating done (0.0s)
+[3.225s] -- Build files have been written to: /home/tanish/ros2_ws/build/cpp_pubsub
+[3.276s] Invoked command in '/home/tanish/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tanish/ros2_ws/src/cpp_pubsub -DCMAKE_INSTALL_PREFIX=/home/tanish/ros2_ws/install/cpp_pubsub
+[3.282s] Invoking command in '/home/tanish/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tanish/ros2_ws/build/cpp_pubsub -- -j15 -l15
+[3.477s] [ 25%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[3.509s] [ 50%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[9.680s] [ 75%] [32m[1mLinking CXX executable publisher[0m
+[9.882s] [ 75%] Built target publisher
+[17.222s] [100%] [32m[1mLinking CXX executable subscriber[0m
+[17.489s] [100%] Built target subscriber
+[17.587s] Invoked command in '/home/tanish/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tanish/ros2_ws/build/cpp_pubsub -- -j15 -l15
+[17.671s] Invoking command in '/home/tanish/ros2_ws/build/cpp_pubsub': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tanish/ros2_ws/build/cpp_pubsub
+[17.693s] -- Install configuration: ""
+[17.693s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/publisher
+[17.695s] -- Set non-toolchain portion of runtime path of "/home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/publisher" to ""
+[17.695s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/subscriber
+[17.698s] -- Set non-toolchain portion of runtime path of "/home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/subscriber" to ""
+[17.698s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub
+[17.699s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub
+[17.700s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh
+[17.700s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv
+[17.700s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh
+[17.700s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv
+[17.700s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash
+[17.700s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake
+[17.701s] -- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml
+[17.742s] Invoked command in '/home/tanish/ros2_ws/build/cpp_pubsub' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/tanish/ros2_ws/build/cpp_pubsub

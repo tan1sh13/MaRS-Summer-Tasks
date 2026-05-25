@@ -1,0 +1,41 @@
+[2.513s] Invoking command in '/home/tanish/ros2_ws/src/py_pubsub': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tanish/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tanish/ros2_ws/build/py_pubsub/build install --record /home/tanish/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
+[2.777s] running egg_info
+[2.777s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[2.790s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[2.790s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[2.790s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[2.790s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[2.790s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[2.790s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.816s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.817s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[2.818s] running build
+[2.818s] running build_py
+[2.818s] creating /home/tanish/ros2_ws/build/py_pubsub/build
+[2.818s] creating /home/tanish/ros2_ws/build/py_pubsub/build/lib
+[2.818s] creating /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.818s] copying py_pubsub/__init__.py -> /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.818s] copying py_pubsub/py_publisher.py -> /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.818s] copying py_pubsub/py_subscriber.py -> /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub
+[2.818s] running install
+[2.823s] running install_lib
+[2.843s] creating /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.843s] copying /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.843s] copying /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub/py_publisher.py -> /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.843s] copying /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub/py_subscriber.py -> /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub
+[2.849s] byte-compiling /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc
+[2.849s] byte-compiling /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/py_publisher.py to py_publisher.cpython-312.pyc
+[2.852s] byte-compiling /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/py_subscriber.py to py_subscriber.cpython-312.pyc
+[2.853s] running install_data
+[2.853s] creating /home/tanish/ros2_ws/install/py_pubsub/share/ament_index
+[2.853s] creating /home/tanish/ros2_ws/install/py_pubsub/share/ament_index/resource_index
+[2.853s] creating /home/tanish/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.853s] copying resource/py_pubsub -> /home/tanish/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages
+[2.853s] copying package.xml -> /home/tanish/ros2_ws/install/py_pubsub/share/py_pubsub
+[2.853s] running install_egg_info
+[2.868s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info
+[2.871s] running install_scripts
+[2.981s] Installing publisher script to /home/tanish/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.982s] Installing subscriber script to /home/tanish/ros2_ws/install/py_pubsub/lib/py_pubsub
+[2.982s] writing list of installed files to '/home/tanish/ros2_ws/build/py_pubsub/install.log'
+[3.016s] Invoked command in '/home/tanish/ros2_ws/src/py_pubsub' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tanish/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/tanish/ros2_ws/build/py_pubsub/build install --record /home/tanish/ros2_ws/build/py_pubsub/install.log --single-version-externally-managed install_data
