@@ -1,0 +1,284 @@
+[0.000000] (-) TimerEvent: {}
+[0.000230] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000301] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000791] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.006442] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.012519] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.014326] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/tanish/ros2_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/tanish/ros2_ws/install/cpp_pubsub'], 'cwd': '/home/tanish/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tanish', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/tanish', 'OLDPWD': '/home/tanish/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3794', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tanish/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tanish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tanish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tanish-VirtualBox:@/tmp/.ICE-unix/3746,unix/tanish-VirtualBox:/tmp/.ICE-unix/3746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/00ad34a3_00dc_46be_a8a3_45312f198979', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P8LRP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.177', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tanish/ros2_ws/install/py_pubsub:/home/tanish/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tanish/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tanish/ros2_ws/install/cpp_pubsub:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[0.098908] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.100288] (-) TimerEvent: {}
+[0.203312] (-) TimerEvent: {}
+[0.306932] (-) TimerEvent: {}
+[0.410800] (-) TimerEvent: {}
+[0.522138] (-) TimerEvent: {}
+[0.592026] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.623589] (-) TimerEvent: {}
+[0.728511] (-) TimerEvent: {}
+[0.831886] (-) TimerEvent: {}
+[0.847759] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.934513] (-) TimerEvent: {}
+[1.037049] (-) TimerEvent: {}
+[1.150730] (-) TimerEvent: {}
+[1.253507] (-) TimerEvent: {}
+[1.366760] (-) TimerEvent: {}
+[1.483021] (-) TimerEvent: {}
+[1.592065] (-) TimerEvent: {}
+[1.701069] (-) TimerEvent: {}
+[1.812489] (-) TimerEvent: {}
+[1.914536] (-) TimerEvent: {}
+[1.961354] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.973419] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.973736] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.974054] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.987535] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.014737] (-) TimerEvent: {}
+[2.117644] (-) TimerEvent: {}
+[2.220173] (-) TimerEvent: {}
+[2.328440] (-) TimerEvent: {}
+[2.335499] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.345600] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.346451] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.346565] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.348813] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.429070] (-) TimerEvent: {}
+[2.503925] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[2.518802] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/home/tanish/ros2_ws/build/py_pubsub/build', 'install', '--record', '/home/tanish/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/tanish/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tanish', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/tanish', 'OLDPWD': '/home/tanish/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3794', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tanish/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tanish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tanish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tanish-VirtualBox:@/tmp/.ICE-unix/3746,unix/tanish-VirtualBox:/tmp/.ICE-unix/3746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/00ad34a3_00dc_46be_a8a3_45312f198979', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P8LRP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.177', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tanish/ros2_ws/install/py_pubsub:/home/tanish/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tanish/ros2_ws/build/py_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tanish/ros2_ws/build/py_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tanish/ros2_ws/install/cpp_pubsub'}, 'shell': False}
+[2.529260] (-) TimerEvent: {}
+[2.621335] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[2.629568] (-) TimerEvent: {}
+[2.659148] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[2.671106] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[2.684405] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.699830] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.729688] (-) TimerEvent: {}
+[2.783578] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[2.783801] (py_pubsub) StdoutLine: {'line': b'creating ../../build/py_pubsub/py_pubsub.egg-info\n'}
+[2.789146] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[2.791045] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.796350] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[2.796459] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[2.796513] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[2.796559] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[2.796596] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[2.796634] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.822267] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.822979] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[2.824018] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[2.824120] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[2.824219] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/build/py_pubsub/build\n'}
+[2.824285] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/build/py_pubsub/build/lib\n'}
+[2.824325] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.824364] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/__init__.py -> /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.824402] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/py_publisher.py -> /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.824501] (py_pubsub) StdoutLine: {'line': b'copying py_pubsub/py_subscriber.py -> /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub\n'}
+[2.824622] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[2.829627] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[2.829730] (-) TimerEvent: {}
+[2.849723] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.849883] (py_pubsub) StdoutLine: {'line': b'copying /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.849926] (py_pubsub) StdoutLine: {'line': b'copying /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub/py_publisher.py -> /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.849963] (py_pubsub) StdoutLine: {'line': b'copying /home/tanish/ros2_ws/build/py_pubsub/build/lib/py_pubsub/py_subscriber.py -> /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub\n'}
+[2.855338] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/__init__.py to __init__.cpython-312.pyc\n'}
+[2.855475] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/py_publisher.py to py_publisher.cpython-312.pyc\n'}
+[2.858548] (py_pubsub) StdoutLine: {'line': b'byte-compiling /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub/py_subscriber.py to py_subscriber.cpython-312.pyc\n'}
+[2.859097] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[2.859203] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/install/py_pubsub/share/ament_index\n'}
+[2.859335] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/install/py_pubsub/share/ament_index/resource_index\n'}
+[2.859403] (py_pubsub) StdoutLine: {'line': b'creating /home/tanish/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[2.859445] (py_pubsub) StdoutLine: {'line': b'copying resource/py_pubsub -> /home/tanish/ros2_ws/install/py_pubsub/share/ament_index/resource_index/packages\n'}
+[2.859708] (py_pubsub) StdoutLine: {'line': b'copying package.xml -> /home/tanish/ros2_ws/install/py_pubsub/share/py_pubsub\n'}
+[2.859772] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.874155] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages/py_pubsub-0.0.0-py3.12.egg-info\n'}
+[2.877883] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[2.918650] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[2.929978] (-) TimerEvent: {}
+[2.941382] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[2.968592] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.987680] (py_pubsub) StdoutLine: {'line': b'Installing publisher script to /home/tanish/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.987966] (py_pubsub) StdoutLine: {'line': b'Installing subscriber script to /home/tanish/ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[2.988415] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/home/tanish/ros2_ws/build/py_pubsub/install.log'\n"}
+[3.022102] (py_pubsub) CommandEnded: {'returncode': 0}
+[3.030134] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[3.030509] (-) TimerEvent: {}
+[3.055633] (cpp_pubsub) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[3.096186] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.130771] (-) TimerEvent: {}
+[3.205572] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.205819] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.205903] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.206338] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.207477] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.207615] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.208091] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.209253] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done (3.2s)\n'}
+[3.221240] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.225618] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/tanish/ros2_ws/build/cpp_pubsub\n'}
+[3.230980] (-) TimerEvent: {}
+[3.276284] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[3.276645] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[3.283115] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tanish/ros2_ws/build/cpp_pubsub', '--', '-j15', '-l15'], 'cwd': '/home/tanish/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tanish', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/tanish', 'OLDPWD': '/home/tanish/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3794', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tanish/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tanish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tanish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tanish-VirtualBox:@/tmp/.ICE-unix/3746,unix/tanish-VirtualBox:/tmp/.ICE-unix/3746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/00ad34a3_00dc_46be_a8a3_45312f198979', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P8LRP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.177', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tanish/ros2_ws/install/py_pubsub:/home/tanish/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tanish/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tanish/ros2_ws/install/cpp_pubsub:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[3.331185] (-) TimerEvent: {}
+[3.443943] (-) TimerEvent: {}
+[3.469779] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[3.509990] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[3.544723] (-) TimerEvent: {}
+[3.647652] (-) TimerEvent: {}
+[3.748061] (-) TimerEvent: {}
+[3.848537] (-) TimerEvent: {}
+[3.954574] (-) TimerEvent: {}
+[4.090889] (-) TimerEvent: {}
+[4.246516] (-) TimerEvent: {}
+[4.385365] (-) TimerEvent: {}
+[4.497414] (-) TimerEvent: {}
+[4.789901] (-) TimerEvent: {}
+[4.893619] (-) TimerEvent: {}
+[5.004708] (-) TimerEvent: {}
+[5.115787] (-) TimerEvent: {}
+[5.223361] (-) TimerEvent: {}
+[5.340018] (-) TimerEvent: {}
+[5.440767] (-) TimerEvent: {}
+[5.541261] (-) TimerEvent: {}
+[5.641880] (-) TimerEvent: {}
+[5.742545] (-) TimerEvent: {}
+[5.843038] (-) TimerEvent: {}
+[5.943594] (-) TimerEvent: {}
+[6.045348] (-) TimerEvent: {}
+[6.146795] (-) TimerEvent: {}
+[6.247457] (-) TimerEvent: {}
+[6.348007] (-) TimerEvent: {}
+[6.448506] (-) TimerEvent: {}
+[6.549400] (-) TimerEvent: {}
+[6.650101] (-) TimerEvent: {}
+[6.751111] (-) TimerEvent: {}
+[6.852019] (-) TimerEvent: {}
+[6.952665] (-) TimerEvent: {}
+[7.053256] (-) TimerEvent: {}
+[7.154035] (-) TimerEvent: {}
+[7.254563] (-) TimerEvent: {}
+[7.355325] (-) TimerEvent: {}
+[7.455976] (-) TimerEvent: {}
+[7.556509] (-) TimerEvent: {}
+[7.657250] (-) TimerEvent: {}
+[7.758213] (-) TimerEvent: {}
+[7.858691] (-) TimerEvent: {}
+[7.959485] (-) TimerEvent: {}
+[8.060014] (-) TimerEvent: {}
+[8.160937] (-) TimerEvent: {}
+[8.262005] (-) TimerEvent: {}
+[8.362570] (-) TimerEvent: {}
+[8.463262] (-) TimerEvent: {}
+[8.564183] (-) TimerEvent: {}
+[8.664789] (-) TimerEvent: {}
+[8.767056] (-) TimerEvent: {}
+[8.867992] (-) TimerEvent: {}
+[8.970132] (-) TimerEvent: {}
+[9.072407] (-) TimerEvent: {}
+[9.173582] (-) TimerEvent: {}
+[9.275452] (-) TimerEvent: {}
+[9.377630] (-) TimerEvent: {}
+[9.483006] (-) TimerEvent: {}
+[9.585777] (-) TimerEvent: {}
+[9.680807] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[9.690977] (-) TimerEvent: {}
+[9.799033] (-) TimerEvent: {}
+[9.882702] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target publisher\n'}
+[9.899242] (-) TimerEvent: {}
+[10.002140] (-) TimerEvent: {}
+[10.107082] (-) TimerEvent: {}
+[10.209529] (-) TimerEvent: {}
+[10.313021] (-) TimerEvent: {}
+[10.416732] (-) TimerEvent: {}
+[10.520497] (-) TimerEvent: {}
+[10.623452] (-) TimerEvent: {}
+[10.766483] (-) TimerEvent: {}
+[10.879822] (-) TimerEvent: {}
+[10.995963] (-) TimerEvent: {}
+[11.169706] (-) TimerEvent: {}
+[11.282392] (-) TimerEvent: {}
+[11.383142] (-) TimerEvent: {}
+[11.485858] (-) TimerEvent: {}
+[11.611906] (-) TimerEvent: {}
+[11.728320] (-) TimerEvent: {}
+[11.838207] (-) TimerEvent: {}
+[11.939859] (-) TimerEvent: {}
+[12.045515] (-) TimerEvent: {}
+[12.167224] (-) TimerEvent: {}
+[12.296714] (-) TimerEvent: {}
+[12.405828] (-) TimerEvent: {}
+[12.530187] (-) TimerEvent: {}
+[12.631290] (-) TimerEvent: {}
+[12.764420] (-) TimerEvent: {}
+[12.903456] (-) TimerEvent: {}
+[13.010416] (-) TimerEvent: {}
+[13.193674] (-) TimerEvent: {}
+[13.317253] (-) TimerEvent: {}
+[13.477977] (-) TimerEvent: {}
+[13.603526] (-) TimerEvent: {}
+[13.793960] (-) TimerEvent: {}
+[13.936501] (-) TimerEvent: {}
+[14.046995] (-) TimerEvent: {}
+[14.164039] (-) TimerEvent: {}
+[14.264700] (-) TimerEvent: {}
+[14.365610] (-) TimerEvent: {}
+[14.466170] (-) TimerEvent: {}
+[14.566786] (-) TimerEvent: {}
+[14.667535] (-) TimerEvent: {}
+[14.768020] (-) TimerEvent: {}
+[14.868476] (-) TimerEvent: {}
+[14.968850] (-) TimerEvent: {}
+[15.069432] (-) TimerEvent: {}
+[15.170032] (-) TimerEvent: {}
+[15.270859] (-) TimerEvent: {}
+[15.371433] (-) TimerEvent: {}
+[15.471826] (-) TimerEvent: {}
+[15.572423] (-) TimerEvent: {}
+[15.673007] (-) TimerEvent: {}
+[15.773380] (-) TimerEvent: {}
+[15.874154] (-) TimerEvent: {}
+[15.974777] (-) TimerEvent: {}
+[16.076462] (-) TimerEvent: {}
+[16.177134] (-) TimerEvent: {}
+[16.277799] (-) TimerEvent: {}
+[16.378593] (-) TimerEvent: {}
+[16.483542] (-) TimerEvent: {}
+[16.589883] (-) TimerEvent: {}
+[16.690532] (-) TimerEvent: {}
+[16.791360] (-) TimerEvent: {}
+[16.892119] (-) TimerEvent: {}
+[16.993037] (-) TimerEvent: {}
+[17.094125] (-) TimerEvent: {}
+[17.194490] (-) TimerEvent: {}
+[17.222440] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[17.294865] (-) TimerEvent: {}
+[17.395479] (-) TimerEvent: {}
+[17.489398] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target subscriber\n'}
+[17.496677] (-) TimerEvent: {}
+[17.587838] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.591971] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[17.599990] (-) TimerEvent: {}
+[17.670777] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tanish/ros2_ws/build/cpp_pubsub'], 'cwd': '/home/tanish/ros2_ws/build/cpp_pubsub', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tanish', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/lib', 'HOME': '/home/tanish', 'OLDPWD': '/home/tanish/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '3794', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tanish/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tanish', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tanish', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/tanish-VirtualBox:@/tmp/.ICE-unix/3746,unix/tanish-VirtualBox:/tmp/.ICE-unix/3746', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/00ad34a3_00dc_46be_a8a3_45312f198979', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.P8LRP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.177', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tanish/ros2_ws/install/py_pubsub:/home/tanish/ros2_ws/install/cpp_pubsub:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tanish/ros2_ws/build/cpp_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tanish/ros2_ws/install/py_pubsub/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tanish/ros2_ws/install/cpp_pubsub:/home/tanish/ros2_ws/install/py_pubsub:/opt/ros/jazzy'}), 'shell': False}
+[17.693538] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[17.693750] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/publisher\n'}
+[17.695240] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/publisher" to ""\n'}
+[17.695533] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/subscriber\n'}
+[17.699037] (cpp_pubsub) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tanish/ros2_ws/install/cpp_pubsub/lib/cpp_pubsub/subscriber" to ""\n'}
+[17.699274] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[17.699491] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[17.700194] (-) TimerEvent: {}
+[17.700410] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[17.700753] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[17.701079] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[17.701146] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[17.701199] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[17.701293] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[17.701347] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[17.701444] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[17.701655] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[17.701718] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[17.701931] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[17.702133] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[17.702195] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/tanish/ros2_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[17.728985] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[17.827330] (-) TimerEvent: {}
+[17.852510] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[17.868721] (-) EventReactorShutdown: {}
